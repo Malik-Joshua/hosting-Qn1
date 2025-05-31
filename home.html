@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosanna Secondary School - Excellence in Education</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">Hosanna Secondary School</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-page="academics">Academics</a></li>
+                <li><a href="#" class="nav-link" data-page="admissions">Admissions</a></li>
+                <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" id="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div id="home" class="page active">
+            <div class="hero">
+                <h1>Welcome to Hosanna Secondary School</h1>
+                <p class="motto">"Excellence in Education, Character in Life"</p>
+                <p style="font-size: 1.1rem; color: #666; margin-bottom: 2rem;">
+                    Nurturing young minds for a brighter tomorrow through quality education, moral values, and holistic development.
+                </p>
+                <a href="#" class="btn" onclick="showPage('admissions')">Apply Now</a>
+            </div>
+
+            <div class="vision-mission">
+                <div class="card">
+                    <h3>🎯 Our Vision</h3>
+                    <p>To be a leading educational institution that empowers students with knowledge, skills, and values necessary to become responsible global citizens and leaders of tomorrow.</p>
+                </div>
+                <div class="card">
+                    <h3>🎯 Our Mission</h3>
+                    <p>To provide quality, affordable, and accessible education that promotes academic excellence, character development, and holistic growth in a nurturing and inclusive environment.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>📢 Latest News & Updates</h3>
+                <div class="news-item">
+                    <div class="news-date">May 25, 2025</div>
+                    <h4>New Science Laboratory Inauguration</h4>
+                    <p>We are excited to announce the opening of our state-of-the-art science laboratory, equipped with modern instruments for Physics, Chemistry, and Biology practicals.</p>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">May 20, 2025</div>
+                    <h4>Outstanding Performance in National Examinations</h4>
+                    <p>Congratulations to our S.4 and S.6 students for their excellent performance in the 2024 national examinations with a 98% pass rate.</p>
+                </div>
+                <div class="news-item">
+                    <div class="news-date">May 15, 2025</div>
+                    <h4>2025 Admissions Now Open</h4>
+                    <p>Applications for the 2025 academic year are now being accepted. Visit our admissions page for more information and application procedures.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="academics" class="page">
+            <h2 class="section-title">Academic Excellence</h2>
+            
+            <div class="card">
+                <h3>📚 Our Curriculum</h3>
+                <p>Hosanna Secondary School follows the Uganda National Curriculum, offering comprehensive education from S.1 to S.6. Our curriculum is designed to provide students with a strong foundation in core subjects while encouraging critical thinking and practical application.</p>
+            </div>
+
+            <h3 style="margin: 2rem 0 1rem 0; color: #4a5568;">Academic Departments</h3>
+            <div class="department-grid">
+                <div class="department">
+                    <h4>🧮 Mathematics & Sciences</h4>
+                    <p>Mathematics, Physics, Chemistry, Biology, and Computer Science with modern laboratories and equipment.</p>
+                </div>
+                <div class="department">
+                    <h4>📖 Languages & Literature</h4>
+                    <p>English, Luganda, Kiswahili, and Literature with emphasis on communication skills and cultural appreciation.</p>
+                </div>
+                <div class="department">
+                    <h4>🌍 Social Studies</h4>
+                    <p>History, Geography, Political Education, and Religious Education fostering global awareness.</p>
+                </div>
+                <div class="department">
+                    <h4>🎨 Arts & Crafts</h4>
+                    <p>Fine Art, Music, Dance, and Drama developing creativity and cultural expression.</p>
+                </div>
+                <div class="department">
+                    <h4>🔧 Technical Studies</h4>
+                    <p>Technical Drawing, Woodwork, Metalwork, and Home Economics for practical skills development.</p>
+                </div>
+                <div class="department">
+                    <h4>💼 Commercial Studies</h4>
+                    <p>Commerce, Accounts, Entrepreneurship, and Business Studies preparing students for the business world.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>🏆 Co-curricular Activities</h3>
+                <p>We believe in holistic education that extends beyond the classroom:</p>
+                <div class="activities">
+                    <span class="activity-tag">Football</span>
+                    <span class="activity-tag">Netball</span>
+                    <span class="activity-tag">Basketball</span>
+                    <span class="activity-tag">Volleyball</span>
+                    <span class="activity-tag">Athletics</span>
+                    <span class="activity-tag">Swimming</span>
+                    <span class="activity-tag">Music Club</span>
+                    <span class="activity-tag">Drama Club</span>
+                    <span class="activity-tag">Debate Society</span>
+                    <span class="activity-tag">Science Club</span>
+                    <span class="activity-tag">Computer Club</span>
+                    <span class="activity-tag">Environmental Club</span>
+                    <span class="activity-tag">Red Cross</span>
+                    <span class="activity-tag">Scouts/Guides</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>📅 Academic Calendar 2025</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1rem;">
+                    <div style="background: #f7fafc; padding: 1rem; border-radius: 8px;">
+                        <h4>Term 1</h4>
+                        <p><strong>Start:</strong> February 3, 2025<br>
+                        <strong>End:</strong> May 9, 2025<br>
+                        <strong>Break:</strong> May 12 - June 1, 2025</p>
+                    </div>
+                    <div style="background: #f7fafc; padding: 1rem; border-radius: 8px;">
+                        <h4>Term 2</h4>
+                        <p><strong>Start:</strong> June 2, 2025<br>
+                        <strong>End:</strong> August 22, 2025<br>
+                        <strong>Break:</strong> August 25 - September 14, 2025</p>
+                    </div>
+                    <div style="background: #f7fafc; padding: 1rem; border-radius: 8px;">
+                        <h4>Term 3</h4>
+                        <p><strong>Start:</strong> September 15, 2025<br>
+                        <strong>End:</strong> December 5, 2025<br>
+                        <strong>Holiday:</strong> December 8, 2025 - February 2, 2026</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="admissions" class="page">
+            <h2 class="section-title">Join Our Community</h2>
+            
+            <div class="card">
+                <h3>📝 Admission Requirements</h3>
+                <p>We welcome students who are committed to academic excellence and personal growth. Our admission process is designed to identify students who will thrive in our academic environment.</p>
+                
+                <div style="margin: 2rem 0;">
+                    <h4 style="color: #4a5568; margin-bottom: 1rem;">For S.1 (Senior One)</h4>
+                    <ul style="margin-left: 2rem; color: #666;">
+                        <li>Completed Primary Leaving Examination (PLE) with at least 12 aggregates</li>
+                        <li>Birth certificate or statutory declaration of age</li>
+                        <li>Passport size photographs (4 copies)</li>
+                        <li>School transfer certificate (if applicable)</li>
+                    </ul>
+                </div>
+                
+                <div style="margin: 2rem 0;">
+                    <h4 style="color: #4a5568; margin-bottom: 1rem;">For S.5 (Advanced Level)</h4>
+                    <ul style="margin-left: 2rem; color: #666;">
+                        <li>Uganda Certificate of Education (UCE) with at least 5 passes including English and Mathematics</li>
+                        <li>Birth certificate</li>
+                        <li>Passport size photographs (4 copies)</li>
+                        <li>School transfer documents</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>📋 Application Process</h3>
+                <div class="admission-steps">
+                    <div class="step">
+                        <h4>Submit Application</h4>
+                        <p>Complete and submit the application form along with required documents to the school office or online portal.</p>
+                    </div>
+                    <div class="step">
+                        <h4>Document Verification</h4>
+                        <p>Our admissions team will review and verify all submitted documents for authenticity and completeness.</p>
+                    </div>
+                    <div class="step">
+                        <h4>Interview & Assessment</h4>
+                        <p>Qualified candidates will be invited for an interview and may undergo academic assessment if required.</p>
+                    </div>
+                    <div class="step">
+                        <h4>Admission Decision</h4>
+                        <p>Successful candidates will receive an admission letter with further instructions for enrollment.</p>
+                    </div>
+                    <div class="step">
+                        <h4>Fee Payment & Registration</h4>
+                        <p>Complete the enrollment process by paying required fees and registering for classes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fee-table">
+                <h3 style="padding: 1rem; margin: 0; background: #f7fafc;">💰 Fee Structure (Per Term)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Class Level</th>
+                            <th>Day Scholar</th>
+                            <th>Boarding</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>S.1 - S.2</td>
+                            <td>450,000 UGX</td>
+                            <td>850,000 UGX</td>
+                        </tr>
+                        <tr>
+                            <td>S.3 - S.4</td>
+                            <td>500,000 UGX</td>
+                            <td>900,000 UGX</td>
+                        </tr>
+                        <tr>
+                            <td>S.5 - S.6</td>
+                            <td>600,000 UGX</td>
+                            <td>1,000,000 UGX</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div style="padding: 1rem; background: #f7fafc; font-size: 0.9rem; color: #666;">
+                    <p><strong>Note:</strong> Fees include tuition, examination fees, and basic school materials. Additional charges may apply for specialized activities and boarding amenities.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>📄 Download Application Forms</h3>
+                <p>Get started with your application by downloading our official forms:</p>
+                <a href="#" class="btn download-btn" onclick="downloadForm('application')">📄 Application Form</a>
+                <a href="#" class="btn download-btn" onclick="downloadForm('prospectus')">📚 School Prospectus</a>
+                <a href="#" class="btn download-btn" onclick="downloadForm('requirements')">📋 Requirements Checklist</a>
+            </div>
+        </div>
+
+        <div id="contact" class="page">
+            <h2 class="section-title">Get in Touch</h2>
+            
+            <div class="contact-info">
+                <div class="card">
+                    <h3>📍 School Location</h3>
+                    <p><strong>Address:</strong><br>
+                    Hosanna Secondary School<br>
+                    Plot 123, Education Road<br>
+                    Kampala, Central Region<br>
+                    Uganda</p>
+                    
+                    <p style="margin-top: 1.5rem;"><strong>📞 Phone Numbers:</strong><br>
+                    Main Office: +256 414 123 456<br>
+                    Admissions: +256 414 123 457<br>
+                    Headmaster: +256 414 123 458</p>
+                    
+                    <p style="margin-top: 1.5rem;"><strong>📧 Email Addresses:</strong><br>
+                    General: info@hosannasecondary.ac.ug<br>
+                    Admissions: admissions@hosannasecondary.ac.ug<br>
+                    Academic: academic@hosannasecondary.ac.ug</p>
+                    
+                    <p style="margin-top: 1.5rem;"><strong>🕒 Office Hours:</strong><br>
+                    Monday - Friday: 8:00 AM - 5:00 PM<br>
+                    Saturday: 8:00 AM - 1:00 PM<br>
+                    Sunday: Closed</p>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>💬 Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="admissions">Admissions Inquiry</option>
+                                <option value="academic">Academic Information</option>
+                                <option value="fees">Fee Structure</option>
+                                <option value="facilities">School Facilities</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" rows="5" required placeholder="Please describe your inquiry in detail..."></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>🗺️ Find Us</h3>
+                <p>We are conveniently located in the heart of Kampala, easily accessible by public transport and private vehicles. Our campus features modern facilities, spacious classrooms, well-equipped laboratories, a library, sports facilities, and boarding accommodation.</p>
+                <div style="background: #f7fafc; padding: 2rem; border-radius: 12px; margin-top: 1rem; text-align: center;">
+                    <p style="color: #666; font-style: italic;">Interactive map and virtual tour coming soon!</p>
+                    <a href="#" class="btn download-btn" onclick="downloadForm('directions')">📍 Get Directions</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Hosanna Secondary School. All rights reserved.</p>
+            <p>Excellence in Education, Character in Life</p>
+        </div>
+    </footer>
+
+    <script>
+        // Wait for DOM to be fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Navigation functionality
+            function showPage(pageId) {
+                // Hide all pages
+                const pages = document.querySelectorAll('.page');
+                pages.forEach(page => page.classList.remove('active'));
+                
+                // Show selected page
+                const targetPage = document.getElementById(pageId);
+                if (targetPage) {
+                    targetPage.classList.add('active');
+                }
+                
+                // Update navigation
+                const navLinks = document.querySelectorAll('.nav-link');
+                navLinks.forEach(link => link.classList.remove('active'));
+                const activeLink = document.querySelector(`[data-page="${pageId}"]`);
+                if (activeLink) {
+                    activeLink.classList.add('active');
+                }
+                
+                // Close mobile menu if open
+                const navLinksMenu = document.getElementById('navLinks');
+                if (navLinksMenu) {
+                    navLinksMenu.classList.remove('active');
+                }
+                
+                // Scroll to top
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+
+            // Event listeners for navigation
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const pageId = link.getAttribute('data-page');
+                    showPage(pageId);
+                });
+            });
+
+            // Mobile menu toggle
+            const mobileMenu = document.getElementById('mobileMenu');
+            if (mobileMenu) {
+                mobileMenu.addEventListener('click', () => {
+                    const navLinks = document.getElementById('navLinks');
+                    if (navLinks) {
+                        navLinks.classList.toggle('active');
+                    }
+                });
+            }
+
+            // Contact form submission
+            const contactForm = document.getElementById('contactForm');
+            if (contactForm) {
+                contactForm.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const subject = document.getElementById('subject').value;
+                    const message = document.getElementById('message').value;
+                    
+                    // Simple form validation
+                    if (!name || !email || !subject || !message) {
+                        alert('Please fill in all required fields.');
+                        return;
+                    }
+                    
+                    // Simulate form submission
+                    alert(`Thank you, ${name}! Your message has been received. We will get back to you soon at ${email}.`);
+                    contactForm.reset();
+                });
+            }
+
+            // Download form functionality
+            window.downloadForm = function(formType) {
+                let fileName = '';
+                let content = ''; // Placeholder for actual file content or trigger
+                
+                switch(formType) {
+                    case 'application':
+                        fileName = 'Hosanna_Application_Form.pdf';
+                        content = 'Application form download would start here... (simulated)';
+                        break;
+                    case 'prospectus':
+                        fileName = 'Hosanna_School_Prospectus.pdf';
+                        content = 'School prospectus download would start here... (simulated)';
+                        break;
+                    case 'requirements':
+                        fileName = 'Admission_Requirements_Checklist.pdf';
+                        content = 'Admission requirements checklist download would start here... (simulated)';
+                        break;
+                    case 'directions':
+                        fileName = 'Directions_To_Hosanna_School.pdf';
+                        content = 'Directions download would start here... (simulated)';
+                        break;
+                    default:
+                        alert('Unknown form type.');
+                        return;
+                }
+                
+                 
+                alert(`Simulating download of: ${fileName}\nContent: ${content}`);
+                
+            };
+
+            
+            showPage('home');
+        });
+    </script>
+</body>
+</html>
